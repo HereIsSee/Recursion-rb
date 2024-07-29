@@ -26,4 +26,3 @@ def fibs_recursive num, array = []
   
   fibs_recursive(num-1, array.push(array[-1]+array[-2]))
 end
-
